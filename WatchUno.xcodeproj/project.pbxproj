@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC80278223A7AA93004B97DF /* WatchUno WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC80278123A7AA93004B97DF /* WatchUno WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC80278223A7AA93004B97DF /* WatchUno.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC80278123A7AA93004B97DF /* WatchUno.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC80278823A7AA93004B97DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC80278623A7AA93004B97DF /* Interface.storyboard */; };
 		AC80278A23A7AA9B004B97DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC80278923A7AA9B004B97DF /* Assets.xcassets */; };
 		AC80279123A7AA9B004B97DF /* WatchUno WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC80279023A7AA9B004B97DF /* WatchUno WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -52,7 +52,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				AC80278223A7AA93004B97DF /* WatchUno WatchKit App.app in Embed Watch Content */,
+				AC80278223A7AA93004B97DF /* WatchUno.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 
 /* Begin PBXFileReference section */
 		AC80277D23A7AA93004B97DF /* WatchUno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchUno.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC80278123A7AA93004B97DF /* WatchUno WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchUno WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC80278123A7AA93004B97DF /* WatchUno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchUno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC80278723A7AA93004B97DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		AC80278923A7AA9B004B97DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC80278B23A7AA9B004B97DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				AC80277D23A7AA93004B97DF /* WatchUno.app */,
-				AC80278123A7AA93004B97DF /* WatchUno WatchKit App.app */,
+				AC80278123A7AA93004B97DF /* WatchUno.app */,
 				AC80279023A7AA9B004B97DF /* WatchUno WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -161,7 +161,7 @@
 			);
 			name = "WatchUno WatchKit App";
 			productName = "WatchUno WatchKit App";
-			productReference = AC80278123A7AA93004B97DF /* WatchUno WatchKit App.app */;
+			productReference = AC80278123A7AA93004B97DF /* WatchUno.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		AC80278F23A7AA9B004B97DF /* WatchUno WatchKit Extension */ = {
@@ -453,7 +453,7 @@
 				IBSC_MODULE = WatchUno_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchUno WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.apjoex.WatchUno.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WatchUno;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,7 +472,7 @@
 				IBSC_MODULE = WatchUno_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchUno WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.apjoex.WatchUno.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WatchUno;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
